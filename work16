@@ -1,0 +1,5 @@
+import requests
+url = "http://www.kyobobook.co.kr/bestSellerNew/bestseller.laf?range=1&kind=2&orderClick=DAB&mallGb=KOR&linkClass=A"
+r = requests.get(url)
+r. encoding ='utf8'
+data = str(r.text)
