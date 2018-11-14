@@ -1,3 +1,5 @@
+교보문고 베스트셀러 목록을 불러와서 시기별로 사람들이 어떤 책을 읽는지 알아보고 싶습니다.
+
 import requests
 url = "http://www.kyobobook.co.kr/bestSellerNew/bestseller.laf?range=1&kind=2&orderClick=DAB&mallGb=KOR&linkClass=A"
 r = requests.get(url)
